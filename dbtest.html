@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test DB</title>
+</head>
+<body>
+<h1> Quotes test</h1>
+<div id="loginDiv">
+    <input type="text" id="username" placeholder="Username" required>
+    <button id="loginButton">Login</button>
+    <p id="status"></p>
+</div>
+
+
+<button id="logoutButton" style="display:none;">Logout</button>
+
+
+<form id="quoteForm" style="display:none;">
+    <input type="text" id="songTitle" placeholder="Song Title" required>
+    <input type="text" id="artist" placeholder="Artist" required>
+    <textarea id="quote" placeholder="Quote" required></textarea>
+    <button type="submit">Add Quote</button>
+</form>
+
+<table id="quotesList" style="display:none;">
+</table>
+
+
+<script src="js/db.js"></script>
+</body>
+</html>
